@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-rs-task1",
+  "version": "1.0.0",
+  "description": "Repo for NodeJS RS School course containing Task 1: Ceasar cipher CLI tool",
+  "main": "caesar-cli.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spitaI/nodejs-rs-task1.git"
+  },
+  "author": "asm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spitaI/nodejs-rs-task1/issues"
+  },
+  "homepage": "https://github.com/spitaI/nodejs-rs-task1#readme",
+  "dependencies": {
+    "commander": "^7.2.0"
+  }
+}
