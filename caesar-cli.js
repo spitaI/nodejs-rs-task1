@@ -9,9 +9,9 @@ const main = () => {
 
   const inputStream = getInputStream(input);
   const outputStream = getOutputStream(output);
-  const tranformStream = getTransformStream(shift, action);
+  const transformStream = getTransformStream(shift, action);
 
-  pipeline(inputStream, outputStream, tranformStream, e => {
+  pipeline(inputStream, transformStream, outputStream, e => {
     if (e) {
       process.stderr.write(`Error in pipeline: ${e.message}`);
       process.exit(1);
